@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <title>Clementine.js imitation from scratch</title>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      <link href="/public/css/main.css" rel="stylesheet" type="text/css">
+    </head>
+  
+    <body>
+        <div class="container">
+            <img src="/public/img/logo.png" />
+            <br />
+            <p class="logo-text">Not Clementine.js</p>
+        </div>
+        
+        <div class="container">
+            <p>You have clicked the button <span id="click-nbr"></span> times.</p>
+            <br />
+            <div class="btn-container">
+                <button type="submit" class="btn btn-add">CLICK ME!</button>
+                <button class='btn btn-delete'>RESET</button>
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="/controllers/clickController.client.js"></script>
+    </body>
+</html>
